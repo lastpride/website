@@ -291,7 +291,20 @@ var settings = {
 					resetForms: true,
 					side: 'right'
 				});
-
+			
+			// Lang.
+			$('#lang')
+				.append('<a href="#lang" class="close"></a>')
+				.appendTo($body)
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'right'
+				});
+				
 		// Header.
 			if (skel.vars.IEVersion < 9)
 				$header.removeClass('alt');

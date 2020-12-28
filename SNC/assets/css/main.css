@@ -5925,6 +5925,17 @@
 					margin-bottom: 0;
 				}
 
+				.banner > article h1 {
+				font-size: 4rem;
+				margin-bottom: 0;
+				color: #FFF;
+				font-weight: 300;
+			}
+
+				.banner > article h1:after {
+					display: none;
+				}
+				
 			.banner > article h2 {
 				font-size: 6rem;
 				margin-bottom: 0;
